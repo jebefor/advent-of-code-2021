@@ -8,10 +8,9 @@ def num_larger_measurements(inp):
   total_num = 0
 
   for idx, i in enumerate(inp):
-    if i > inp[idx-1]:
+    if (idx != 0) and (i > inp[idx-1]):
       total_num += 1
 
-  print(total_num)
   return total_num
 
 if __name__ == "__main__":
