@@ -35,7 +35,7 @@ def test_get_power_consumption(inp):
   if func_output == 198:
     print("Passed Test get_power_consumption")
   else:
-    print("Failed Test get_power_consumption")
+    print("Failed Test get_power_consumption!")
 
 if __name__ == "__main__":
   test_group_same_bit(input_data)

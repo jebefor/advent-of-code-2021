@@ -15,7 +15,10 @@ def test_calculations(inp):
   func_output = navigate(inp)
   expected_output = 900
 
-  print(func_output == expected_output)
+  if func_output == expected_output:
+    print("Passed Test calculations")
+  else:
+    print("Failed Test calculations!")
 
 if __name__ == "__main__":
   test_calculations(input_data)
